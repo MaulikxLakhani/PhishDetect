@@ -1,9 +1,9 @@
 # PhishDetect
-A python tool to detect malicios and phishing domains.
+A python tool to detect phishing domains and malicious domains.
 
 What is PhishDetect?
 -------------
-PhishDetect is an opensource Intelligence (OSINT) security tool to identify malicious and phishing domains. 
+PhishDetect is an opensource Intelligence (OSINT) security tool to identify phishing domains and malicious domains. 
 
 **It does support some key features such as:**
 
