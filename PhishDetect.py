@@ -26,7 +26,7 @@ def check_malicious_status(domain):
                       "Chrome/120.0.6099.71 Safari/537.36",
         "Accept-Ianguage": "en-US,en;q=0.9,es;q=0.8",
         # update your VirusTotal API key before executing.
-        "x-apikey": "b06ad5679225334e4d427cf2307f43347c35e42c433d87e9f3f0d0b879439d9a"
+        "x-apikey": "update your VirusTotal API key before executing."
     }
 
     try:
