@@ -21,8 +21,6 @@ How to Install
 ```
 Make sure you have **Python 3.6+** and **pip3** in your environment
 
-
-
 How to Update
 ------------
 > :warning: **when updating**: especially for a major release, re-run the pip install to check for new dependencies.
@@ -58,7 +56,7 @@ To request a new feature, create a "new issue" and describe the feature and pote
 Authors
 -------------
 Project founder
-*   Maulik Lakhani [(LinkedIn)](https://www.linkedin.com/in/andretenreiro/)
+*   Maulik Lakhani - [(LinkedIn)](https://in.linkedin.com/in/mauliklakhani)
 
 Contributors
 *   Please check the contributors page on GitHub
