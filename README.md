@@ -24,7 +24,7 @@ Make sure you have **Python** and **pip** in your environment
 
 How to Update
 ------------
-> :warning: **when updating**: especially for a major release, re-run the pip install to check for new dependencies.
+> **When updating**: To check for new dependencies you may want to re-run the pip install, especially for a major release, 
 
 To update your current version, just type the following commands inside the Phish-Detect directory:
 ```bash
