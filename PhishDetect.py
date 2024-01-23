@@ -11,7 +11,7 @@ phishing_db = "https://raw.githubusercontent.com/mitchellkrogza" \
               "phishing-domains-ACTIVE.txt"
 phishing_filename = "phishing.db"
 #  Add at least 2 VirusTotal API keys before executing.
-api_keys = ["5e4f8062e903b196e97610838d965d56bb4e78d469067d64deb5e89711121687", "4fe68149b49cd566fc7fd9ede793613f8f32ec96cddd8caaa00385faeb0ee566", "f1d48a788041d5a4cc8bd19b838cd5c9d81c5659352ad4c8172ad42316287129"]
+api_keys = ["key1", "key2", "key3"]
 
 
 def display_art():
