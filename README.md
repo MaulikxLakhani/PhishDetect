@@ -20,7 +20,7 @@ How to Install
     git clone https://github.com/MaulikxLakhani/Phish-Detect.git
     pip install -r requirements.txt
 ```
-Make sure you have **Python 3.6+** and **pip3** in your environment
+Make sure you have **Python** and **pip** in your environment
 
 How to Update
 ------------
@@ -46,7 +46,8 @@ Automations & Integrations
 -------------
 You can set up PhishDetect to run automatically using a task scheduler (such as crontab for Linux) to generate updated results daily.
 
-
+Contributions
+-------------
 As an opensource project, everyone's welcome to contribute.
 Do you have an integration idea or would like to share an integration you developed with our community? Open a GitHub issue or send me an email.
 
@@ -56,7 +57,7 @@ To request a new feature, create a "new issue" and describe the feature and pote
 
 Authors
 -------------
-Project founder
+Project Founder
 *   Maulik Lakhani - [(LinkedIn)](https://in.linkedin.com/in/mauliklakhani)
 
 Contributors
