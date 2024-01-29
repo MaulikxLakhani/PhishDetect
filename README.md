@@ -36,7 +36,7 @@ The "pip install" is just to make sure no new libs were added with the new upgra
 
 Usage Examples
 ------------
-Edit the "domains.txt" with your customised domain list to hunt.
+Edit the "domains.txt" with your customised domain list to hunt. \
 Add your API key(s) in the "virustotal.txt" file. (Optional) 
 
 ```bash
@@ -44,7 +44,7 @@ Add your API key(s) in the "virustotal.txt" file. (Optional)
     python PhishDetect.py <domains.txt> <virustotal.txt>
 ```
 
-> [Required] domains.txt: A text file containing domain list with each domain in a separate line.
+> [Required] domains.txt: A text file containing domain list with each domain in a separate line. \
 > [Optional] virustotal.txt: A text file containing VirusTotal API keys with each key in a separate line.
     
 
