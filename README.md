@@ -8,8 +8,9 @@ PhishDetect is an opensource Intelligence (OSINT) security tool to identify phis
 
 **It does support some key features such as:**
 
+*   Uses multiple credible data sources such as Quad9, Phishing Database, OpenPhish and Discord Phishing.
 *   Integration with VirusTotal
-*   Use different levels of threshold to fine tune
+*   Use different levels of threshold to fine tune.
 *   Can be integrated with other threat intelligence tools and DNS sinkholes
 
 
@@ -20,15 +21,16 @@ How to Install
     git clone https://github.com/MaulikxLakhani/Phish-Detect.git
     pip install -r requirements.txt
 ```
-Make sure you have **Python** and **pip** in your environment
+Make sure you have **Python** and **pip** in your environment.
 
 How to Update
 ------------
 > **When updating**: To check for new dependencies you may want to re-run the pip install, especially for a major release.
 
-To update your current version, just type the following commands inside the Phish-Detect directory:
+To update your current version, just type the following commands:
 ```bash
-    git pull
+    git clone https://github.com/MaulikxLakhani/PhishDetect.git
+    cd PhishDetect
     pip install -r requirements.txt
 ```
 The "pip install" is just to make sure no new libs were added with the new upgrade. 
@@ -36,6 +38,7 @@ The "pip install" is just to make sure no new libs were added with the new upgra
 Usage Examples
 ------------
 Edit the "domains.txt" with your customised domain list to hunt.
+Add your API key(s) in the "virustotal.txt" file. (Optional) 
 
 ```bash
     # Lazy run with default options
@@ -47,7 +50,7 @@ Edit the "domains.txt" with your customised domain list to hunt.
 
 Automations & Integrations
 -------------
-You can set up PhishDetect to run automatically using a task scheduler (such as crontab for Linux) to generate updated results daily.
+You can set up PhishDetect to run automatically using a task scheduler (such as crontab for Linux) to generate latest results.
 
 Contributions
 -------------
@@ -70,8 +73,8 @@ How to help
 -------------
 You can help this project in many ways:
 *   Spread this project within your network.
-*   Providing your time and coding skills to enhance the project.
+*   Providing your time and coding skills to add more data sources into the project.
 *   Build a decent but simple project webpage.
-*   Provide access to OSINT feeds.
+*   Provide access to OSINT feeds or phishing feeds.
 *   Open new issues with new suggestions, ideas, bug report or feature requests.
 *   Share your story how have you been using the PhishDetect and what impact it brought to you.
