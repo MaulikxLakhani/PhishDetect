@@ -7,11 +7,11 @@ What is PhishDetect?
 PhishDetect is an opensource Intelligence (OSINT) security tool to identify phishing domains and malicious domains including domains containing malware.
 
 **Data Sources:**
-- Quad9 DNS
+- Quad9 Blacklist
 - Phishing Database
 - OpenPhish
 - Discord Phishing
-- Virus Total
+- VirusTotal
 
 **Key Features:**
 
