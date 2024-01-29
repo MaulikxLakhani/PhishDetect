@@ -38,9 +38,9 @@ Usage Examples
 Edit the "domains.txt" with your customised domain list to hunt.
 
 ```bash
-    * Lazy run with default options
+    # Lazy run with default options
     python PhishDetect.py domains.txt virustotal.txt
-    #  [Required] domains.txt: A text file containing list of domains with each domain in a separate line.
+    *  [Required] domains.txt: A text file containing list of domains with each domain in a separate line.
     #  [Optional] virustotal.txt: A text file containing list of VirusTotal API keys with each API key in a separate line.
     
 ```
