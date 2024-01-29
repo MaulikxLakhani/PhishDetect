@@ -25,7 +25,6 @@ Make sure you have **Python** and **pip** in your environment.
 
 How to Update
 ------------
-> **When updating**: To check for new dependencies you may want to re-run the pip install, especially for a major release.
 
 To update your current version, just type the following commands:
 ```bash
@@ -43,10 +42,11 @@ Add your API key(s) in the "virustotal.txt" file. (Optional)
 ```bash
     # Lazy run with default options
     python PhishDetect.py <domains.txt> <virustotal.txt>
-    *  [Required] domains.txt: A text file containing domain list with each domain in a separate line.
-    *  [Optional] virustotal.txt: A text file containing VirusTotal API keys with each key in a separate line.
-    
 ```
+
+> [Required] domains.txt: A text file containing domain list with each domain in a separate line.
+> [Optional] virustotal.txt: A text file containing VirusTotal API keys with each key in a separate line.
+    
 
 Automations & Integrations
 -------------
