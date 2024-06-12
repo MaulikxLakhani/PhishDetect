@@ -1,5 +1,5 @@
 # PhishDetect
-A python tool to detect phishing domains and malicious domains including domains containings malwares.
+A python script to detect phishing domains and malicious domains including domains containings malwares.
 
                                                                                                     
 What is PhishDetect? 
